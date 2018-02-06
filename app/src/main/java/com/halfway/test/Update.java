@@ -54,7 +54,7 @@ public class Update extends Fragment {
                             getActivity().runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-                                    for(int i = 0; i < 270; i++) {
+                                    for(int i = 0; i < 263; i++) {
                                         items.add((Card) response.body());
                                         recyclerView.getAdapter().notifyDataSetChanged();
                                     }
